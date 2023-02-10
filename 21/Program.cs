@@ -37,6 +37,6 @@ double Distance(double xa, double ya, double za, double xb, double yb, double zb
     return Math.Sqrt(Math.Pow((xb-xa), 2) + Math.Pow((yb-ya), 2) + Math.Pow((zb-za), 2));
 }
 double res = Distance(xa, ya, za, xb, yb, zb);
-Console.WriteLine($"Расстояние между двумя точками - {res}");
+Console.WriteLine($"Расстояние между двумя точками - {res.ToString("0.##")}");
 
 
